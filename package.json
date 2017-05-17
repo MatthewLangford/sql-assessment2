@@ -1,0 +1,32 @@
+{
+  "name": "sql-assessment",
+  "version": "1.0.0",
+  "description": "## Setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevMountain/sql-assessment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevMountain/sql-assessment/issues"
+  },
+  "homepage": "https://github.com/DevMountain/sql-assessment#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "express": "^4.14.0",
+    "massive": "^2.4.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "faker": "^3.1.0",
+    "lodash": "^4.14.1",
+    "supertest": "^2.0.0",
+    "supertest-as-promised": "^3.2.0"
+  }
+}
